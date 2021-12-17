@@ -1,7 +1,9 @@
 
 
 var options = {
-				   solution: 			[[null,	null,	null,	 "A",	 "C",	null,	null,	 "L",	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   solution: 			[[null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,	null,	null,	 "A",	 "C",	null,	null,	 "L",	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	 "S",	 "A",	 "N",	 "S",	 "E",	 "R",	 "I",	 "F",   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	null,	null,	 "C",	 "S",	null,	null,	 "N",	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	null,	null,	 "H",	null,	null,	null,	 "K",	null,    "E",   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
@@ -19,11 +21,12 @@ var options = {
 										[null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
-		                                [null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null]],
 
 
-		            index: 				[[null,  null,   null,      1,      4,   null,   null,      6,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		            index: 				[[null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+										[null,	null,	null,	null,	null,	null,	null,	null,	null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+										[null,  null,   null,      1,      4,   null,   null,      6,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,      8,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
 		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,      2,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
