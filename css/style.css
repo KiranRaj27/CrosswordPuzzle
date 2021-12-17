@@ -1,10 +1,6 @@
 
 
 html,body{
-
-
-
-
 font-family: 'Numans', sans-serif;
 }
 
@@ -13,6 +9,13 @@ font-family: 'Numans', sans-serif;
     
     top: 0em;
 
+}
+
+.headingone{
+    color:#fff;
+    margin-left: 38%;
+    font-size: 5vh;
+    margin-top: -50px;
 }
 
 .card{
@@ -26,3 +29,5 @@ background-color: rgba(0,0,0,0.5) !important;
 #btn{
     color: blue !important;
 }
+
+

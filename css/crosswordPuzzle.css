@@ -61,6 +61,17 @@
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .cwp_q_container{
+    margin-top: 98%;
+    margin-left: 0;
+  }
+  .cwp_q_container{
+    width: 90%;
+    left: 0;
+  }
+}
+
 @media only screen and (max-width: 300px) {
   .cwp_q_container{
     margin-top: 98%;

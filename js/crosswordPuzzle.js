@@ -30,14 +30,7 @@ var cwp_nmsp = {};
 		h4Element.appendChild(document.createTextNode("Questions"));
 		container.appendChild(h4Element);
 		container.appendChild(document.createElement("br"));
-		var h5ElementAcross = document.createElement("h5");
-		h5ElementAcross.className = "cwp_h5_q";
-		h5ElementAcross.appendChild(document.createTextNode("Across"))
-		container.appendChild(h5ElementAcross);
-		var innerContainerAcross = document.createElement("div");
-		innerContainerAcross.className = "cwp_q_across_container";
-		innerContainerAcross.setAttribute("id", "cwp_q_across_container");
-		container.appendChild(innerContainerAcross);
+		
 		var h5ElementDown = document.createElement("h5");
 		h5ElementDown.className = "cwp_h5_q";
 		h5ElementDown.appendChild(document.createTextNode("Down"));
@@ -46,6 +39,16 @@ var cwp_nmsp = {};
 		innerContainerDown.className = "cwp_q_down_container";
 		innerContainerDown.setAttribute("id", "cwp_q_down_container");
 		container.appendChild(innerContainerDown);
+
+    var h5ElementAcross = document.createElement("h5");
+		h5ElementAcross.className = "cwp_h5_q";
+		h5ElementAcross.appendChild(document.createTextNode("Across"))
+    container.appendChild(document.createElement("br"));
+		container.appendChild(h5ElementAcross);
+		var innerContainerAcross = document.createElement("div");
+		innerContainerAcross.className = "cwp_q_across_container";
+		innerContainerAcross.setAttribute("id", "cwp_q_across_container");
+		container.appendChild(innerContainerAcross);
 		docFrag.appendChild(container);
 
 		container = document.createElement("div");
