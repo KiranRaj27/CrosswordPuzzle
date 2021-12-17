@@ -8,10 +8,11 @@
   display: inline-block;
   position: absolute;
   top: 0px;
-  width: 500px;
+  width: 550px;
   
-  height: 500px;
-
+  height: 550px;
+  margin-top: 5%;
+  margin-left: 2%;
   /* border: thick;
   border-color: black;
   border-style: double; */
