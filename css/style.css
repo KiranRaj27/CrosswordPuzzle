@@ -11,6 +11,37 @@ font-family: 'Numans', sans-serif;
 
 }
 
+#heads h1{
+        position: relative;
+        left:4em;
+        color: white;
+      }
+@media only screen and (max-width: 1050px) {
+        #heads h1{
+          position: relative;
+          left:4em;
+          color: white;
+        }
+      
+      }
+@media only screen and (max-width: 750px) {
+        #heads h1{
+          position: relative;
+          left:4em;
+          color: white;
+        }
+      
+      }
+@media only screen and (max-width: 400px) {
+        #heads h1{
+          position: relative;
+          left:0.75em;
+          color: white;
+          font-size: 30px;
+        }
+      
+      }
+
 .card{
 height: 370px;
 margin-top: 3em;
